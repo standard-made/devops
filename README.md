@@ -2,18 +2,33 @@
 ![STANDARD: DevOps](./src/standard-automation.png "STANDARDmade, LLC")
 
 
+#### **TABLE OF CONTENTS**
+
+- [STANDARD: Automation](/qa-engineering/README.md)
+  - [STANDARD: Database Connections](/qa-engineering/wiki/tc-db-connections.md)
+  - [STANDARD: Self-Hosted Pipelines](/qa-engineering/wiki/tc-hosted-pipelines.md)
+  - [STANDARD: Microsoft Hosted Pipelines](/qa-engineering/wiki/tc-mshosted-pipelines.md)
+  - [STANDARD: Ad-Hoc Pipelines](/qa-engineering/wiki/tc-adhoc-pipelines.md)
+  - [STANDARD: BDD](/qa-engineering/wiki/tc-bdd.md)
+  - [STANDARD: Object Name Mapping](/qa-engineering/wiki/tc-name-mapping.md)
+- [STANDARD: HA/DR Test Plan](/qa-engineering/wiki/ha-disaster-recovery-plan.md)
+- [STANDARD: Release Plan](/qa-engineering/wiki/wiki-release-plan.md)
+- [STANDARD: Sprint Plan](/qa-engineering/wiki/wiki-sprint-plan.md)
+- [STANDARD: Test Plan](/qa-engineering/wiki/wiki-test-plan.md)
+- [STANDARD: Risk Assessment](/qa-engineering/wiki/wiki-risk-assessment.md)
+- [STANDARD: Wiki Templates](/qa-engineering/wiki/wiki-templates.md)
+  
 ## <span style="color:#51F4C0"><u> **OVERVIEW** </u></span>
 
 <span style="color:#B387FD"><u>**STANDARD: DevOps**</u></span> - anything and everyhting QA Automation & Engineering. Consider this my "Professional Portfolio" .... or whatever. 
 
 A stripped down, high-level, 10 year overview of SOME of my work & :taco::taco:!
 
-
 ## <span style="color:#555555"><u> **ABOUT ME** </u></span>
 
- Automation Engineer and <span style="color:#5CE1E6">Unicorn</span> Software Quality Assurance Expert specializing in Automation Architecture, Test Strategy and Planning, Documentation, QA/TDD/BDD Methodologies with a strong focus in Product Design, Leadership/Mentorship, UI/UX/Back-End Testing, Cross-System Integrations, Agile/Scrum with full SDLC coverage. 
+ **Certified Scrum Master®, Automation Engineer, and <span style="color:#5CE1E6">Unicorn</span> Software Quality Assurance Expert** specializing in Automation Architecture, Test Strategy and Planning, Documentation, QA/TDD/BDD Methodologies with a strong focus in Product Design, Leadership/Mentorship, UI/UX/Back-End Testing, Cross-System Integrations, Agile/Scrum with full SDLC coverage. 
 
-Metaphorically speaking, I am “IT Duct Tape” – incredibly useful, immensely versatile, strong yet pliable, binds things together, and something every team can’t live without.
+Metaphorically speaking, I am **“IT Duct Tape”** – incredibly useful, immensely versatile, strong yet pliable, binds things together, and something every team can’t live without.
 
 
 ## <span style="color:#555555"><u> **POINTS OF CONTACT** </u></span>
@@ -82,14 +97,14 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 - <span style="color:#F4AFDA"><u>Google:</u></span> Chrome DevTools, Cloud, Android, Analytics, Ads 
 - <span style="color:#F4AFDA"><u>Microsoft:</u></span> DevOps, GitHub, VS, SSMS, 365, Teams 
 - <span style="color:#F4AFDA"><u>SmartBear:</u></span> TestComplete (Desktop/Mobile/Web), ReadyAPI, Swagger, Cucumber, LoadNinja, TestExecute, TestEngine, CrossBroswerTesting 
-- <span style="color:#F4AFDA"><u>Automation:</u></span> Postman, Powershell, ServiceNow, MongoDB, Robo3T, Fiddler, OctoPerf
+- <span style="color:#F4AFDA"><u>Automation:</u></span> Selenium, Postman, Powershell, ServiceNow, MongoDB, Robo3T, Fiddler, OctoPerf
 
 :taco: **EXPOSURE (< 3 yrs):** 
 
 - <span style="color:#F4AFDA"><u>Google:</u></span> Firebase, Flutter/Dart 
 - <span style="color:#F4AFDA"><u>Microsoft:</u></span> Visio, PowerBI, AKS 
-- <span style="color:#F4AFDA"><u>Automation:</u></span> Selenium, JMeter, LoadRunner, BrowserStack, Appium, Cypress, SauceLabs 
-- <span style="color:#F4AFDA"><u>Other:</u></span> Docker, Terraform, React.js, Kentico, Figma, Zepplin
+- <span style="color:#F4AFDA"><u>Automation:</u></span> JMeter, LoadRunner, BrowserStack, Appium, Cypress, SauceLabs 
+- <span style="color:#F4AFDA"><u>Other:</u></span> Docker, Terraform, React.js, Kentico, Figma, Zepplin, Jira
 
 <span style="color:#A6A6A6"> **EXAMPLES:** </span>
 
