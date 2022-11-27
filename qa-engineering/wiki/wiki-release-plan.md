@@ -1,10 +1,10 @@
-**<h1> SILVERGATE RELEASE PLAN TEMPLATE </h1>**
+**<h1> STANDARD: RELEASE PLAN TEMPLATE </h1>**
 ![standard-wiki.png](/src/standard-wiki.png)
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-Below you will find supporting references, project timelines, and formal descriptions for all current projects and work items included in the Silvergate Q1 Release Plan.
+Below you will find supporting references, project timelines, and formal descriptions for all current projects and work items included in the STANDARD: Q1 Release Plan.
 
 
 
@@ -18,9 +18,9 @@ Please contact the associated personnel for general information or support.
 ## <span style="color:#555555"><u> **TIMELINE** </u></span>
 <span style="color:#A6A6A6"> **Q1.2022 [JAN - MAR]** </span>
 
-::: mermaid
+``` mermaid
 gantt
-title Silvergate Release Plan Q1
+title STANDARD: Release Plan Q1
 dateFormat YYYY-MM-DD
 
 section example A
@@ -42,7 +42,7 @@ SEN Updates (v2/v3) :a1, 2022-01-17, 21d
 section PORTAL
 Sierra Settlement Dates :a1, 2022-01-14, 19d
 
-:::
+```
 
 
 

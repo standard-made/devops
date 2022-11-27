@@ -1,4 +1,4 @@
-**<h1> TestComplete Automation w/Behavior-Driven Development (BDD) </h1>**
+**<h1> STANDARD: Automation w/Behavior-Driven Development (BDD) </h1>**
 ![standard-automation.png](/src/standard-automation.png)
 
 
@@ -23,7 +23,7 @@ When issues arise for any of the below mentioned areas, please contact the assoc
 
 
 ## <span style="color:#555555"><u> **BDD TAGGING** </u></span>
-BDD Project Backlog Items and Test Cases will use the same tagging features in Azure as described in the [TestComplete Automation Wiki]() in addition to the main tag referenced below:
+BDD Project Backlog Items and Test Cases will use the same tagging features in Azure as described in the [STANDARD: Automation Wiki](../README.md) in addition to the main tag referenced below:
 - <span style="color:hotpink"> [@]_BDD</span> 
 
 
@@ -103,8 +103,8 @@ Given("A {arg} user navigates to the {arg} homepage in the {arg} environment", f
   ProjectSuite.Variables.ActiveUserType = param1;
   ProjectSuite.Variables.Site = param2
   ProjectSuite.Variables.Environment = param3;
-  ProjectSuite.Variables.dboDatabaseServer = aqString.ToLower("sql-Standard-apis-shared-" + ProjectSuite.Variables.Environment);
-  ProjectSuite.Variables.ProfileName = "TestComplete Automation";
+  ProjectSuite.Variables.dboDatabaseServer = aqString.ToLower("sql-standard-apis-shared-" + ProjectSuite.Variables.Environment);
+  ProjectSuite.Variables.ProfileName = "STANDARD: Automation";
   Log.Checkpoint("| Test Environmnet Set | - " + ProjectSuite.Variables.Environment);
   
   // relaunch browser to 

@@ -1,9 +1,9 @@
-**<h1> Standard DISASTER RECOVERY PLAN </h1>**
-![standard-wiki.png](/src/standard-wiki.png)
+**<h1> STANDARD: DISASTER RECOVERY PLAN </h1>**
+![STANDARD-wiki.png](/src/STANDARD-wiki.png)
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-The Standard Disaster Recovery Plan (DRP), defined in collaboration with internal stakeholders, will encompass the various testing methods for validating critical business systems, infrastructure, and failover solutions within the Standard High Availability (HA) project scope. Tests are defined and prioritize by the project group and executed in accordance with the specified test references and project timelines.
+The STANDARD: Disaster Recovery Plan (DRP), defined in collaboration with internal stakeholders, will encompass the various testing methods for validating critical business systems, infrastructure, and failover solutions within the STANDARD: High Availability (HA) project scope. Tests are defined and prioritize by the project group and executed in accordance with the specified test references and project timelines.
 
 #16230
 
@@ -17,10 +17,10 @@ For all HA and DR related inquires or issues, please contact the associated pers
 
 
 ## <span style="color:#555555"><u> **TEST PLAN** </u></span>
-Standard is committed to ensuring that the Disaster Recovery Plan (DRP) is functional. The DRP and Test Plan should be re-verified whenever system-wide outages or failures occur, and when changes are made to the HA infrastructure in order to ensure that Standard's DRP is still effective. Testing the DRP will be carried out as follows: 
+STANDARD is committed to ensuring that the Disaster Recovery Plan (DRP) is functional. The DRP and Test Plan should be re-verified whenever system-wide outages or failures occur, and when changes are made to the HA infrastructure in order to ensure that STANDARD: DRP is still effective. Testing the DRP will be carried out as follows: 
 
 1) **Walkthrough** - Team members verbally go through the specific steps as documented in the plan to confirm effectiveness, identify gaps, bottlenecks or other weaknesses. This test provides the opportunity to review a plan with a larger subset of people, allowing the DRP project manager to draw upon a correspondingly increased pool of knowledge and experiences. Staff should be familiar with procedures, equipment, and offsite facilities (if required).
-   - Verify [Standard Failover Process]()
+   - Verify **STANDARD: Failover Process**
 
 2) **Simulation** - A disaster is simulated so normal operations will not be interrupted. Hardware, software, personnel, communications, procedures, supplies and forms, documentation, transportation, utilities, and alternate site processing should be thoroughly tested in a simulation test. However, validated checklists can provide a reasonable level of assurance for many of these scenarios. Analyze the output of the previous tests carefully before the proposed simulation to ensure the lessons learned during the previous phases of the cycle have been applied. 
 
@@ -35,9 +35,9 @@ Standard is committed to ensuring that the Disaster Recovery Plan (DRP) is funct
 
 
 ## <span style="color:#555555"><u> **ACTIVE TIMELINE** </u></span>
-The active Disaster Recovery Timeline is intended to track dates, times, and events of system outages, testing occurrences and approvals, and changes made to the Standard HA infrastructure. In the event of a catastrophic failure, the Standard DevProjects team will be responsible for the execution of the DRP and any subsequent testing/sign-off that may be required in order to verify all critical systems are running as expected - within the recommended 24hr time period. 
+The active Disaster Recovery Timeline is intended to track dates, times, and events of system outages, testing occurrences and approvals, and changes made to the STANDARD: HA infrastructure. In the event of a catastrophic failure, the STANDARD: DevProjects team will be responsible for the execution of the DRP and any subsequent testing/sign-off that may be required in order to verify all critical systems are running as expected - within the recommended 24hr time period. 
 
-::: mermaid
+``` mermaid
 gantt
 title Disaster Recovery Timeline
 dateFormat YYYY-MM-DD
@@ -54,7 +54,7 @@ section Testing
 section Approval
 Sign-Off :milestone, 0d
 
-:::
+```
 
 ### <span style="color:#555555"><u> **EVENTS** </u></span>
 [enter event dates here]

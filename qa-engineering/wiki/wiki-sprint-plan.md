@@ -1,10 +1,10 @@
-**<h1> SILVERGATE SPRINT PLANNING TEMPLATE </h1>**
+**<h1> STANDARD: SPRINT PLANNING TEMPLATE </h1>**
 ![standard-wiki.png](/src/standard-wiki.png)
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-Below you will find supporting references, sprint timelines, and resources used in the Silvergate DevProjects <i>Sprint Planning Cycle</i>.
+Below you will find supporting references, sprint timelines, and resources used in the STANDARD: DevProjects <i>Sprint Planning Cycle</i>.
 - <span style="color:#A6A6A6"> **CURRENT SPRINT:** </span> **[58]**
 
 

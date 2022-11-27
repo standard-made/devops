@@ -1,10 +1,10 @@
-**<h1> TESTCOMPLETE DATABASE CONNECTIONS </h1>**
+**<h1> STANDARD: DATABASE CONNECTIONS </h1>**
 ![standard-automation.png](/src/standard-automation.png)
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-TestComplete uses ADO (ActiveX Data Objects), which are used to establish a connection to the Standard data sources exposed through OLE DB and ODBC (currently we use OLEDB). In TestComplete, the ADO connection is established, the database connection string is provided (found in Azure key vault), the connection is opened, the provided SQL statement is executed, and the connection is closed. 
+TestComplete uses ADO (ActiveX Data Objects), which are used to establish a connection to the STANDARD data sources exposed through OLE DB and ODBC (currently we use OLEDB). In TestComplete, the ADO connection is established, the database connection string is provided (found in Azure key vault), the connection is opened, the provided SQL statement is executed, and the connection is closed. 
 
 
 

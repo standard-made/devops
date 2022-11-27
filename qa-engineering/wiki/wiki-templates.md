@@ -1,4 +1,4 @@
-**<h1> SILVERGATE MARKDOWN TEMPLATES </h1>**
+**<h1> STANDARD: MARKDOWN TEMPLATES </h1>**
 ![standard-wiki.png](/src/standard-wiki.png)
 
 Grab whatever you need for your own project documents. For more information on basic Markdown syntax guidance in Azure DevOps, view [Microsoft's Documentation](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops)
@@ -20,7 +20,7 @@ Grab whatever you need for your own project documents. For more information on b
 [enter project timeline information here]
 
 <span style="color:#A6A6A6"> **TARGET DATES - Q1** </span>
-::: mermaid
+``` mermaid
 gantt
 title Taco Project
 dateFormat YYYY-MM-DD
@@ -30,7 +30,7 @@ Celebrate Tacos :after a1 , 60d
 section P002
 Assemble Tacos :2022-01-12 , 12d
 Consume Tacos : 24d
-:::
+```
 
 
 
@@ -75,14 +75,14 @@ $$
 $$ 
 
 ##### <span style="color:#A6A6A6"> **MERMAID DIAGRAM** </span>
-::: mermaid
+``` mermaid
    graph LR;
    a[Wiki supports Mermaid Diagrams] --> B[CLICK HERE for Mermaid Syntax];
 click B "https://mermaidjs.github.io/"
-:::
+```
 
 ##### <span style="color:#A6A6A6"> **SEQUENCE CHART** </span>
-::: mermaid
+``` mermaid
 sequenceDiagram 
     Alice->>John: Hello John, would you like more tacos?
     loop Healthcheck
@@ -92,17 +92,17 @@ sequenceDiagram
     John-->>Alice: Great!
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
-:::
+```
 
 ##### <span style="color:#A6A6A6"> **FLOW CHART** </span>
-::: mermaid
+``` mermaid
 graph TD
 A[Hungry] -->|Get money| B(Order ToGo)
 B --> C{Let Me Think}
 C -->|One| D[Tacos]
 C -->|Two| E[Bigger Tacos]
 C -->|Three| F[Lord of Tacos]
-:::
+```
 
 
 
@@ -142,4 +142,4 @@ SELECT TOP 1 TacoType FROM cte_Tacos ORDER BY NEWID()
 [enter references, resources, and helpful links here]
 
 - URL 1 - [text to display](http://www.tacoipsum.com/)
-- URL 2 - [text to display](https://www.silvergate.com/)
+- URL 2 - [text to display](https://www.made.llc/)

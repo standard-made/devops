@@ -1,4 +1,4 @@
-**<h1> TESTCOMPLETE PIPELINES w/MICROSOFT-HOSTED-AGENTS </h1>**
+**<h1> STANDARD: PIPELINES w/MICROSOFT-HOSTED-AGENTS </h1>**
 ![standard-automation.png](/src/standard-automation.png)
 
 

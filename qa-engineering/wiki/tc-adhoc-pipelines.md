@@ -1,4 +1,4 @@
-**<h1> TESTCOMPLETE ADHOC PIPELINES </h1>**
+**<h1> STANDARD: ADHOC PIPELINES </h1>**
 ![standard-automation.png](/src/standard-automation.png)
 
 
@@ -25,7 +25,7 @@ Permissioned users can edit the 'AdHoc' task groups and pipelines to run differe
 ### <span style="color:#A6A6A6"> **RUNNING ADHOC PIPELINES** </span>
 
 - **<span style="color:gold">ADHOC</span> PIPELINES ONLY:** Do not run or edit other pipelines or task groups without notifying the points of contact above. 
-- **<span style="color:red">DO NOT</span>** copy automated test cases into other Project Test Plans. Runs should only be configured to use the [TestComplete Automation - Partner Portal]() Test Plan. Copying into other Test Plans creates duplicate test case items in Azure DevOps and duplicate bindings within TestComplete. 
+- **<span style="color:red">DO NOT</span>** copy automated test cases into other Project Test Plans. Runs should only be configured to use the [STANDARD: Test Plan](/qa-engineering/wiki/wiki-test-plan.md). Copying into other Test Plans creates duplicate test case items in Azure DevOps and duplicate bindings within TestComplete. 
 
 ![new_adhoc.png](/src/assets/new_adhoc.png)
 

@@ -1,4 +1,4 @@
-**<h1> OBJECT NAMEMAPPING w/TESTCOMPLETE </h1>**
+**<h1> STANDARD: OBJECT NAMEMAPPING w/TESTCOMPLETE </h1>**
 ![standard-automation.png](/src/standard-automation.png)
 
 

@@ -1,10 +1,10 @@
-**<h1> SILVERGATE TEST STRATEDGY AND PLANNING TEMPLATE </h1>**
+**<h1> STANDARD: TEST STRATEDGY AND PLANNING TEMPLATE </h1>**
 ![standard-wiki.png](/src/standard-wiki.png)
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-The **Test Strategy & Planning** efforts defined by QA Engineering in collaboration with internal stakeholders, will encompass the various testing methods for validating critical business systems and project development work within the Silvergate DevOps group. Tests are defined and prioritize by the project group and executed in accordance with the specified test methods and project timelines.
+The **Test Strategy & Planning** efforts defined by QA Engineering in collaboration with internal stakeholders, will encompass the various testing methods for validating critical business systems and project development work within the STANDARD: DevOps group. Tests are defined and prioritize by the project group and executed in accordance with the specified test methods and project timelines.
 
 
 
@@ -16,7 +16,7 @@ For all testing and automation related inquires or issues, please contact the as
 
 
 ## <span style="color:#555555"><u> **PROJECTS** </u></span>
-The primary focus of the initial Silvergate testing efforts will be on the customer facing Portal and Back Office interfaces as well as the various APIs utilized by customers to facilitate frictionless transactions across Silvergate's suite of banking solutions: 
+The primary focus of the initial STANDARD: testing efforts will be on the customer facing Portal and Back Office interfaces as well as the various APIs utilized by customers to facilitate frictionless transactions across STANDARD's suite of banking solutions: 
 
 - Silvergate Exchange Network (SEN) transfers
 - FX Quoting
@@ -32,7 +32,7 @@ The primary focus of the initial Silvergate testing efforts will be on the custo
 See [TestComplete Automation](/TestComplete-Automation) for more info. 
 
 #### **Backlog** 
-- [BACKLOG SUITE](https://silvergate.visualstudio.com/DevProjects/_testPlans/define?planId=15366) - this is a query based test suite and will automatically pull in any Test Case tagged with **[@]_Automate** OR **[@]_Update**
+- **BACKLOG SUITE** - this is a query based test suite and will automatically pull in any Test Case tagged with **[@]_Automate** OR **[@]_Update**
 
 Below is a 6 MONTH timeline of all completed, current, and future UAT and automation efforts conducted by the Silvergate project team.
 #### **Timeline**

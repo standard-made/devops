@@ -1,14 +1,14 @@
-**<h1> TESTCOMPLETE PIPELINES w/SELF-HOSTED-AGENTS </h1>**
+**<h1> STANDARD: PIPELINES w/SELF-HOSTED-AGENTS </h1>**
 ![standard-automation.png](/src/standard-automation.png)
 
 
 
 ## <span style="color:#555555"><u> **OVERVIEW** </u></span>
-Standard's Partner Portal automated regression testing is run via Azure Pipelines using Standard's Self-Hosted Agent (VM: W10-Selenium), but can be also configured to run on Microsoft-Hosted Agents. See [TestComplete Azure Pipelines on Microsoft-Hosted Agents](/TestComplete-Automation/Azure-Pipelines-on-Microsoft%2DHosted-Agents) for more info. 
+STANDARD's Partner Portal automated regression testing is run via Azure Pipelines using STANDARD's Self-Hosted Agent (VM: W10-Selenium), but can be also configured to run on Microsoft-Hosted Agents. See [STANDARD: Azure Pipelines on Microsoft-Hosted Agents](/qa-engineering/wiki/tc-mshosted-pipelines.md) for more info. 
 
-Currently there are 8 TestComplete Automation Pipelines configured to run within the Standard DevOps Project. 4 are set to run against the QA environment, with the other 4 running against STG.
+Currently there are 8 TestComplete Automation Pipelines configured to run within the STANDARD: DevOps Project. 4 are set to run against the QA environment, with the other 4 running against STG.
 
-High level results from any pipeline run can be viewed [here](https://Standard.visualstudio.com/DevProjects/_testManagement/runs?_a=runQuery) and filtering the results by using 'Title' [Contains] 'tc-automation' **OR** by clicking on the Execute tab from within a selected Test Plan Suite (EX: [FX Suite](https://standard.visualstudio.com/DevProjects/_testPlans/execute?planId=15366&suiteId=17288)) - Azure displays the latest results by default.
+High level results from any pipeline run can be viewed from the Azure testManagement page and filtering the results by using 'Title' [Contains] 'tc-automation' **OR** by clicking on the Execute tab from within a selected Test Plan Suite (EX: **FX Suite**) - Azure displays the latest results by default.
 
 1. <u>Regression</u> - runs the [Portal Regression Suite]() Azure Test Plan Suite every morning except Friday) at 3AM & 5AM PST.
    - QA
