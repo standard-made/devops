@@ -1,25 +1,26 @@
 **<h1> STANDARD: DevOps</h1>**
-![STANDARDmade DEVops](/src/standard-automation.png "STANDARDmade, LLC")
+![STANDARDmade DEVops](./src/standard-automation.png "STANDARDmade, LLC")
 
 
-## <span style="color:#51F4C0"><u> **OVERVIEW** </u></span>
+<span style="color:#51F4C0"><u> **OVERVIEW** </u></span>
+
 <span style="color:#B387FD"><u>STANDARD: DevOps</u></span> - anything and everyhting QA Automation & Engineering. Consider this my "Professional Portfolio" .... or whatever. 
 
 A stripped down, high-level, 10 year overview of SOME of my work & :taco::taco:!
 
 
-## <span style="color:#555555"><u> **ABOUT ME** </u></span>
+<span style="color:#555555"><u> **ABOUT ME** </u></span>
  Automation Engineer and <span style="color:#5CE1E6">Unicorn</span> Software Quality Assurance Expert specializing in Automation Architecture, Test Strategy and Planning, Documentation, QA/TDD/BDD Methodologies with a strong focus in Product Design, Leadership/Mentorship, UI/UX/Back-End Testing, Cross-System Integrations, Agile/Scrum with full SDLC coverage. 
 
 Metaphorically speaking, I am “IT Duct Tape” – incredibly useful, immensely versatile, strong yet pliable, binds things together, and something every team can’t live without.
 
 
-## <span style="color:#555555"><u> **POINTS OF CONTACT** </u></span>
+<span style="color:#555555"><u> **POINTS OF CONTACT** </u></span>
 If any issues arise for any of the below mentioned areas, please draft a strongly worded email and never send it. If you find you visit plesent and wish to send hot tacos, please contact the personnel below.  
 - **8Kit:** kit@made.llc + :taco::taco::taco:
 
 
-## <span style="color:#555555"><u> **EXPERIENCE** </u></span>
+<span style="color:#555555"><u> **EXPERIENCE** </u></span>
 [Click Here](/qa-engineering/wiki/README.md) to READ more | [Click Here](/qa-engineering/wiki/README.md) to SEE more
 
 - <u>Fintech/Crypto Company</u> | **Software QA Engineer III** - 1.5yr
@@ -35,7 +36,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
     - Automation [30%] | Manual [70%]
 
 
-## <span style="color:#555555"><u> **CORE SOLUTIONS** </u></span>
+<span style="color:#555555"><u> **CORE SOLUTIONS** </u></span>
 | Skills  | Experience |
 | ------------- |:-------------:|
 | Test Automation | 100% |
@@ -58,7 +59,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 | Mindfulness | 100% |
 
 
-## <span style="color:#555555"><u> **CORE DEVELPOMENT** </u></span>
+<span style="color:#555555"><u> **CORE DEVELPOMENT** </u></span>
 **myTOOLS:** `TestComplete` | `SoapUI/ReadyAPI` | `Selenium WebDriver` | `ADO` | `SSMS`
 
 **myCODE:** `JavaScript` | `Bash/Shell` | `Git` | `Gherkin` | `JSON` | `SQL` | `YAML`
@@ -72,7 +73,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 
 :taco: **EXPOSURE (< 3 yrs):** <span style="color:#F4AFDA"><u>Google:</u></span> Firebase, Flutter/Dart <span style="color:#F4AFDA"><u>Microsoft:</u></span> Visio, PowerBI, AKS <span style="color:#F4AFDA"><u>Automation:</u></span> Selenium, JMeter, LoadRunner, BrowserStack, Appium, Cypress, SauceLabs <span style="color:#F4AFDA"><u>Other:</u></span> Docker, Terraform, React.js, Kentico, Figma, Zepplin
 
-### <span style="color:#A6A6A6"> EXAMPLES </span>
+#<span style="color:#A6A6A6"> EXAMPLES </span>
 <span style="color:#B387FD"><u>STANDARD: DevOps</u></span> fully supports the consumption of tacos. Use the examples below to help make all of your wildest taco dreams come true. NOTE: we assume no liable after tacos are consumed. Please use at your own discretion - and listen to your tum tum.
 
 
@@ -128,7 +129,7 @@ SELECT TOP 1 TacoType FROM cte_Tacos ORDER BY NEWID()
 ```
 
 
-### <span style="color:#A6A6A6"> TODO </span>
+#<span style="color:#A6A6A6"> TODO </span>
 To further define which tacos should be consumed, use the dropdown reference below...
 
 <details>
