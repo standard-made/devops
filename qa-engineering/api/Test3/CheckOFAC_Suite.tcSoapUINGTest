@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{3AE7D26E-11DE-411F-A26E-9C422F421771}" version="15.0">
+	<data>
+		<setting name="UseProjectFileName" type="1" value="True" />
+		<setting name="ProjectFileName" type="5" value="C:\Users\KeithHudson\Documents\Automation\Silvergate\SGB-PaymentsAPI\Stores\Files\Full-Regression-TestingPE-soapui-project.xml" />
+		<setting name="UseProjectDirectory" type="1" value="False" />
+		<setting name="ProjectDirectory" type="5" value="" />
+		<setting name="TestSuite" type="6" rowIndex="11" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="&lt;All&gt;" />
+				<row val0="API | FED FUNDS" />
+				<row val0="API | Pain001 | FX" />
+				<row val0="API | Pain001 | USD" />
+				<row val0="BeB | FX | Pacs008" />
+				<row val0="BeB | USD | Pacs008" />
+				<row val0="Defects" />
+				<row val0="Finastra FGPP | Manual Regression Test Package" />
+				<row val0="Fraud Bypass" />
+				<row val0="Incoming FED" />
+				<row val0="Incoming SWIFT FX" />
+				<row val0="OFAC Check Suite" />
+				<row val0="Outgoing FX from SWIFT" />
+				<row val0="Portal | Pain001 | FX | P006" />
+				<row val0="Portal | Pain001 | USD | P010" />
+				<row val0="Portal USD | Pacs008" />
+				<row val0="Queue List Test" />
+				<row val0="SWIFT | Incoming | USD | Correspondence" />
+				<row val0="Travel Rules" />
+			</data>
+		</setting>
+		<setting name="TestCase" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="&lt;All&gt;" />
+				<row val0="--------BeB--------" />
+				<row val0="Incoming FED 10 generator BBI Field 6500 | OFAC" />
+				<row val0="Incoming FED 10 generator Creditor Address Field 4200 | OFAC" />
+				<row val0="Incoming FED 10 generator Creditor Name Field 4200 | OFAC" />
+				<row val0="Incoming FED 10 generator Debtor Address Field 5000 | OFAC" />
+				<row val0="Incoming FED 10 generator Debtor Agent Address Field 5100 | OFAC" />
+				<row val0="Incoming FED 10 generator Debtor Agent Name Field 5100 | OFAC" />
+				<row val0="Incoming FED 10 generator Debtor Name Field 5000 | OFAC" />
+				<row val0="Incoming FED 10 generator End to End ID Field 4320 | OFAC" />
+				<row val0="Incoming FED 10 generator Instructing Agent Address Field 5200 | OFAC" />
+				<row val0="Incoming FED 10 generator Instructing Agent Name Field 5200 | OFAC" />
+				<row val0="Incoming FED 10 generator OBI Field 6000 | OFAC" />
+				<row val0="Incoming FED 10 generator Previous Instructing Agent Field 5200 | OFAC" />
+				<row val0="Incoming Swift Creditor Address |&#32;&#32;OFAC" />
+				<row val0="Incoming Swift Creditor Agent Name |&#32;&#32;OFAC | DEFECT opened" />
+				<row val0="Incoming Swift Creditor Name |&#32;&#32;OFAC" />
+				<row val0="Incoming Swift Debtor Address |&#32;&#32;OFAC" />
+				<row val0="Incoming Swift Debtor Name |&#32;&#32;OFAC" />
+				<row val0="Incoming Swift Intermediary Address | OFAC" />
+				<row val0="Incoming Swift Intermediary Name | OFAC" />
+				<row val0="Incoming Swift OBI Field |&#32;&#32;OFAC" />
+				<row val0="Incoming Swift Other Codes Field |&#32;&#32;OFAC" />
+				<row val0="Outgoing FED BBI | OFAC" />
+				<row val0="Outgoing FED Cdtr Address | OFAC" />
+				<row val0="Outgoing FED Cdtr Agt Address | OFAC" />
+				<row val0="Outgoing FED Cdtr Agt Name | OFAC" />
+				<row val0="Outgoing FED Cdtr Name | OFAC" />
+				<row val0="Outgoing FED Instructing Agent ID | OFAC" />
+				<row val0="Outgoing FED Intermediary Address | OFAC" />
+				<row val0="Outgoing FED Intermediary Name | OFAC" />
+				<row val0="Outgoing FED OBI | OFAC" />
+				<row val0="Outgoing Swift BBI |&#32;&#32;OFAC" />
+				<row val0="Outgoing Swift Creditor Address |&#32;&#32;OFAC" />
+				<row val0="Outgoing Swift Creditor Agent Address |&#32;&#32;OFAC" />
+				<row val0="Outgoing Swift Creditor Agent Name |&#32;&#32;OFAC" />
+				<row val0="Outgoing Swift Creditor Name |&#32;&#32;OFAC" />
+			</data>
+		</setting>
+		<setting name="EnableUI" type="1" value="False" />
+		<setting name="AddSettings" type="1" value="False" />
+		<setting name="ProjectPassword" type="5" value="" />
+		<setting name="SettingsXmlPassword" type="5" value="" />
+		<setting name="IgnoreErrors" type="1" value="False" />
+		<setting name="SaveAfter" type="1" value="False" />
+		<setting name="Environment" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Default" />
+			</data>
+		</setting>
+		<setting name="Endpoint" type="5" value="" />
+		<setting name="Host" type="5" value="" />
+		<setting name="Port" type="2" value="0" />
+		<setting name="Username" type="5" value="" />
+		<setting name="Password" type="5" value="" />
+		<setting name="Domain" type="5" value="" />
+		<setting name="WssPasswordType" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="Text" />
+				<row val0="Digest" />
+			</data>
+		</setting>
+		<setting name="PrintReport" type="1" value="True" />
+		<setting name="ExportJUnitResults" type="1" value="True" />
+		<setting name="ExportAll" type="1" value="True" />
+		<setting name="RootFolder" type="5" value="" />
+		<setting name="CoverageReport" type="1" value="False" />
+		<setting name="OpenReport" type="1" value="False" />
+		<setting name="ReportType" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="TestSuite Report" />
+				<row val0="JUnit-Style HTML Report" />
+				<row val0="Data Export" />
+			</data>
+		</setting>
+		<setting name="ReportFormats" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="PDF" />
+				<row val0="False" val1="XLS" />
+				<row val0="False" val1="HTML" />
+				<row val0="False" val1="RTF" />
+				<row val0="False" val1="CSV" />
+				<row val0="False" val1="TXT" />
+				<row val0="False" val1="XML" />
+			</data>
+		</setting>
+		<setting name="GlobalProperties" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="SystemProperties" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ProjectProperties" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ToolArgs" type="5" value="" />
+	</data>
+</Root>

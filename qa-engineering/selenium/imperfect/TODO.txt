@@ -1,0 +1,8 @@
+TODO
+-----------------------------------------------
+1. clean up code and add method structures
+
+2. add bonus tests
+	a. verify when page is refreshed, 'Bacon - Wikipedia' is still the first result
+	b. confirm the bacon format with the highest calories per service is 'Bacon, raw'
+	c. use National Weather Service public API to determine Staurday's weather forecast in 'Bacon, Indiana' is above freezing

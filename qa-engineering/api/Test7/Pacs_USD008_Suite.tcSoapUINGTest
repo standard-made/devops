@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{3AE7D26E-11DE-411F-A26E-9C422F421771}" version="15.0">
+	<data>
+		<setting name="UseProjectFileName" type="1" value="True" />
+		<setting name="ProjectFileName" type="5" value="C:\Users\KeithHudson\Documents\Automation\Silvergate\SGB-PaymentsAPI\Stores\Files\Full-Regression-TestingPE-soapui-project.xml" />
+		<setting name="UseProjectDirectory" type="1" value="False" />
+		<setting name="ProjectDirectory" type="5" value="" />
+		<setting name="TestSuite" type="6" rowIndex="15" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="&lt;All&gt;" />
+				<row val0="API | FED FUNDS" />
+				<row val0="API | Pain001 | FX" />
+				<row val0="API | Pain001 | USD" />
+				<row val0="BeB | FX | Pacs008" />
+				<row val0="BeB | USD | Pacs008" />
+				<row val0="Defects" />
+				<row val0="Finastra FGPP | Manual Regression Test Package" />
+				<row val0="Fraud Bypass" />
+				<row val0="Incoming FED" />
+				<row val0="Incoming SWIFT FX" />
+				<row val0="OFAC Check Suite" />
+				<row val0="Outgoing FX from SWIFT" />
+				<row val0="Portal | Pain001 | FX | P006" />
+				<row val0="Portal | Pain001 | USD | P010" />
+				<row val0="Portal USD | Pacs008" />
+				<row val0="Queue List Test" />
+				<row val0="SWIFT | Incoming | USD | Correspondence" />
+				<row val0="Travel Rules" />
+			</data>
+		</setting>
+		<setting name="TestCase" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="&lt;All&gt;" />
+				<row val0="FXWIREOPS | Regression | Portal FX | Cross Currency Internal Transfer | Same Client | Type 1 | COMPLETE (EUR to USD WHERE Amount &lt; Callback)" />
+				<row val0="FXWIREOPS | Regression | Portal FX | Cross Currency Internal Transfer | Same Client | Type 1 | COMPLETE (USD to EUR WHERE Amount &lt; Callback)" />
+				<row val0="FXWIREOPS | Regression | Portal FX | Same Currency Internal Payment | Different Client | Type 4 | COMPLETE (EUR to EUR WHERE Amount &lt; Callback)" />
+				<row val0="FXWIREOPS | Regression | Portal FX | Third Party AUD &lt; Callback" />
+				<row val0="FXWIREOPS | Regression | Portal FX | Third Party CHF &gt; Callback" />
+				<row val0="FXWIREOPS | Regression | Portal FX | Third Party EUR &lt; Callback" />
+				<row val0="FXWIREOPS | Regression | Portal FX | Third Party HKD &lt; Callback" />
+				<row val0="FXWIREOPS | Regression | Portal FX | Third Party SGD &lt; Callback" />
+				<row val0="FXWIREOPS | Regression | Portal FX | Third Party SGD &gt; Callback + Release" />
+				<row val0="PAYMENTOPS | FRAUD_POSSIBLE_HIT {4200} | Beneficiary Account + Manual Release" />
+				<row val0="PAYMENTOPS | FRAUD_POSSIBLE_HIT {4200} | Beneficiary Name + Cancel" />
+				<row val0="PAYMENTOPS | FRAUD_POSSIBLE_HIT {5000} | Originator Account + Cancel" />
+				<row val0="PAYMENTOPS | FRAUD_POSSIBLE_HIT {5000} | Originator Name + Manual Release" />
+				<row val0="Portal Pain001 | USD | CdtrAgt ABA" />
+				<row val0="Portal Pain001 | USD | CdtrAgt Correspondent BIC | BFRILI22XXX" />
+				<row val0="Portal Pain001 | USD | CdtrAgt Correspondent BIC | XAPOGIGIXXX" />
+				<row val0="Portal Pain001 | USD | CdtrAgt Intl BIC | No SSI" />
+				<row val0="Portal Pain001 | USD | CdtrAgt Intl BIC | SSI" />
+				<row val0="Portal Pain001 | USD | CdtrAgt US BIC" />
+				<row val0="SANCTIONS | OFAC_POSSIBLE_HIT {4000} | Intermediary Bank + True Match Seize [TP]" />
+				<row val0="SANCTIONS | OFAC_POSSIBLE_HIT {4100} | Beneficiary Bank + Reject Transaction [TP]" />
+				<row val0="SANCTIONS | OFAC_POSSIBLE_HIT {4200} | Beneficiary Address + False Positive" />
+				<row val0="SANCTIONS | OFAC_POSSIBLE_HIT {4200} | Beneficiary Address + True Match Approved [TP]" />
+				<row val0="SANCTIONS | OFAC_POSSIBLE_HIT {4200} | Beneficiary Name + BSA Review" />
+				<row val0="SANCTIONS | OFAC_POSSIBLE_HIT {6000} | Originator to Beneficiary Information + False Positive" />
+				<row val0="WIREMGR | 2 Bank Scenario | Domestic Wire + Callback and Release" />
+				<row val0="WIREMGR | 2 Bank Scenario | Domestic Wire + Release" />
+				<row val0="WIREMGR | 3 Bank Scenario | USD International Wire + Callback and Release" />
+				<row val0="WIREMGR | 3 Bank Scenario | USD International Wire + Release" />
+				<row val0="WIREOPS | 2 Bank Scenario | Book Wire + Callback" />
+				<row val0="WIREOPS | 2 Bank Scenario | Domestic Wire + Callback" />
+				<row val0="WIREOPS | 3 Bank Scenario | USD International Wire + Callback" />
+			</data>
+		</setting>
+		<setting name="EnableUI" type="1" value="False" />
+		<setting name="AddSettings" type="1" value="False" />
+		<setting name="ProjectPassword" type="5" value="" />
+		<setting name="SettingsXmlPassword" type="5" value="" />
+		<setting name="IgnoreErrors" type="1" value="False" />
+		<setting name="SaveAfter" type="1" value="False" />
+		<setting name="Environment" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Default" />
+			</data>
+		</setting>
+		<setting name="Endpoint" type="5" value="" />
+		<setting name="Host" type="5" value="" />
+		<setting name="Port" type="2" value="0" />
+		<setting name="Username" type="5" value="" />
+		<setting name="Password" type="5" value="" />
+		<setting name="Domain" type="5" value="" />
+		<setting name="WssPasswordType" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="Text" />
+				<row val0="Digest" />
+			</data>
+		</setting>
+		<setting name="PrintReport" type="1" value="True" />
+		<setting name="ExportJUnitResults" type="1" value="True" />
+		<setting name="ExportAll" type="1" value="True" />
+		<setting name="RootFolder" type="5" value="" />
+		<setting name="CoverageReport" type="1" value="False" />
+		<setting name="OpenReport" type="1" value="False" />
+		<setting name="ReportType" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="None" />
+				<row val0="TestSuite Report" />
+				<row val0="JUnit-Style HTML Report" />
+				<row val0="Data Export" />
+			</data>
+		</setting>
+		<setting name="ReportFormats" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="PDF" />
+				<row val0="False" val1="XLS" />
+				<row val0="False" val1="HTML" />
+				<row val0="False" val1="RTF" />
+				<row val0="False" val1="CSV" />
+				<row val0="False" val1="TXT" />
+				<row val0="False" val1="XML" />
+			</data>
+		</setting>
+		<setting name="GlobalProperties" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="SystemProperties" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ProjectProperties" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ToolArgs" type="5" value="" />
+	</data>
+</Root>

@@ -1,0 +1,39 @@
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 21553
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2021 10:23:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+NOTE: There are 10 suggested keyword searches
+...searching for plain ole 'Bacon jam'
+...searching for plain ole 'Bacon'
+PASS: 'Bacon' found in suggested searches
+PASS: 'Bacon - Wikipedia' = top 'Bacon' result
+PASS: Nutrition Facts found
+PASS: 44 calories found
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 25008
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2021 10:25:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+NOTE: There are 10 suggested keyword searches
+...searching for plain ole 'Bacon jam'
+...searching for plain ole 'Bacon'
+PASS: 'Bacon' found in suggested searches
+PASS: 'Bacon - Wikipedia' = top 'Bacon' result
+PASS: Nutrition Facts found
+PASS: 44 calories found
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 5375
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2021 10:33:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+NOTE: There are 10 suggested keyword searches
+...searching for plain ole 'Bacon jam'
+...searching for plain ole 'Bacon'
+PASS: 'Bacon' found in suggested searches
+PASS: 'Bacon - Wikipedia' = top 'Bacon' result
+PASS: Nutrition Facts found
+PASS: 44 calories found
