@@ -10,18 +10,21 @@ A stripped down, high-level, 10 year overview of SOME of my work & :taco::taco:!
 
 
 <span style="color:#555555"><u> **ABOUT ME** </u></span>
+
  Automation Engineer and <span style="color:#5CE1E6">Unicorn</span> Software Quality Assurance Expert specializing in Automation Architecture, Test Strategy and Planning, Documentation, QA/TDD/BDD Methodologies with a strong focus in Product Design, Leadership/Mentorship, UI/UX/Back-End Testing, Cross-System Integrations, Agile/Scrum with full SDLC coverage. 
 
 Metaphorically speaking, I am “IT Duct Tape” – incredibly useful, immensely versatile, strong yet pliable, binds things together, and something every team can’t live without.
 
 
 <span style="color:#555555"><u> **POINTS OF CONTACT** </u></span>
+
 If any issues arise for any of the below mentioned areas, please draft a strongly worded email and never send it. If you find you visit plesent and wish to send hot tacos, please contact the personnel below.  
 - **8Kit:** kit@made.llc + :taco::taco::taco:
 
 
 <span style="color:#555555"><u> **EXPERIENCE** </u></span>
-[Click Here](/qa-engineering/wiki/README.md) to READ more | [Click Here](/qa-engineering/wiki/README.md) to SEE more
+
+[Click Here](/qa-engineering/wiki/README.md) to READ more
 
 - <u>Fintech/Crypto Company</u> | **Software QA Engineer III** - 1.5yr
   - Digital Channels (Web/API)
@@ -37,6 +40,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 
 
 <span style="color:#555555"><u> **CORE SOLUTIONS** </u></span>
+
 | Skills  | Experience |
 | ------------- |:-------------:|
 | Test Automation | 100% |
@@ -60,6 +64,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 
 
 <span style="color:#555555"><u> **CORE DEVELPOMENT** </u></span>
+
 **myTOOLS:** `TestComplete` | `SoapUI/ReadyAPI` | `Selenium WebDriver` | `ADO` | `SSMS`
 
 **myCODE:** `JavaScript` | `Bash/Shell` | `Git` | `Gherkin` | `JSON` | `SQL` | `YAML`
