@@ -3,15 +3,15 @@
 
 /***************************************************************
 Name: Orders
-Description: Verifying RaceTrac's Online Orders platform.
-Author: 8Kit
+Description: Verifying Standard's Online Orders platform.
+Author: kITt
 Date: 10/23/2020
 
 Revision History:
-01) 10/23/2020 kit: RandomOrders()
-02) 11/12/2020 kit: GetRandomUser(), GetRandomStore(), GetRandomProduct()
-03) 11/17/2020 kit: RunRandomOrders(), Orders.setTestEnvironmnet()
-03) 12/04/2020 kit: Refactor for enhanced envt and runtime handling
+01) 10/23/2020 kITt: RandomOrders()
+02) 11/12/2020 kITt: GetRandomUser(), GetRandomStore(), GetRandomProduct()
+03) 11/17/2020 kITt: RunRandomOrders(), Orders.setTestEnvironmnet()
+03) 12/04/2020 kITt: Refactor for enhanced envt and runtime handling
 ***************************************************************/
 function RandomOrdersUI()
 { 

@@ -3,7 +3,7 @@
 /***************************************************************
 Name: Events
 Description: General event controls
-Author: Keith Hudson
+Author: kITt
 Creation Date: 08/20/2022
 ***************************************************************/
 

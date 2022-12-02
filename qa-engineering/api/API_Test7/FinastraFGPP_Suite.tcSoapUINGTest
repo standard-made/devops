@@ -2,7 +2,7 @@
 <Root signature="{3AE7D26E-11DE-411F-A26E-9C422F421771}" version="15.0">
 	<data>
 		<setting name="UseProjectFileName" type="1" value="True" />
-		<setting name="ProjectFileName" type="5" value="C:\Users\KeithHudson\Documents\Automation\Silvergate\SGB-PaymentsAPI\Stores\Files\Full-Regression-TestingPE-soapui-project.xml" />
+		<setting name="ProjectFileName" type="5" value="C:\Users\kITt\Documents\Automation\Silvergate\SGB-PaymentsAPI\Stores\Files\Full-Regression-TestingPE-soapui-project.xml" />
 		<setting name="UseProjectDirectory" type="1" value="False" />
 		<setting name="ProjectDirectory" type="5" value="" />
 		<setting name="TestSuite" type="6" rowIndex="7" colIndex="0">
@@ -17,7 +17,7 @@
 				<row val0="BeB | FX | Pacs008" />
 				<row val0="BeB | USD | Pacs008" />
 				<row val0="Defects" />
-				<row val0="Finastra FGPP | Manual Regression Test Package" />
+				<row val0="STANDARD FGPP | Manual Regression Test Package" />
 				<row val0="Fraud Bypass" />
 				<row val0="Incoming FED" />
 				<row val0="Incoming SWIFT FX" />
@@ -37,30 +37,30 @@
 			</columns>
 			<data>
 				<row val0="&lt;All&gt;" />
-				<row val0="Application Finastra FGPP - Flow | Ability to Simultaneously Have the Original Incoming Wire Open with the New Outgoing Return (Processing)" />
-				<row val0="Application Finastra FGPP - Flow | Dodd-Frank Consumer USD International Wire: Time Hold (Auto-Release)" />
-				<row val0="Application Finastra FGPP - Flow | Dodd-Frank Consumer USD International Wire: Time Hold (Force from Time Hold)" />
-				<row val0="Application Finastra FGPP - Flow | FRAUDEX (ForceFraud)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming Drawdown (Invalid Mandate - Approve)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming Drawdown (Invalid Mandate - Refuse)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming EUR MT103 - Reject (Prior to Post)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming EUR MT103 - Return (After Post)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming EUR MT103 to EUR DDA (Return)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming FedWire to Book (ROFI)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming SWIFT EUR MT103 | Repair Due to Rate Tolerance" />
-				<row val0="Application Finastra FGPP - Flow | Incoming SWIFT USD MT103 from Bank Frick (Complete)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming SWIFT USD MT103 from LHV (Complete)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming SWIFT USD MT103 from XAPO (Complete)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming USD MT103 - Reject (Prior to Post)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming USD MT103 - Return (After Post)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming Wire FED 1000 CTR - Outgoing Return (Return Amount is Different Than The Instructed Amount)" />
-				<row val0="Application Finastra FGPP - Flow | Incoming Wire FED 1000 CTR - Outgoing Return (Return Amounts Reverting to OG Amount After Edit)" />
-				<row val0="Application Finastra FGPP - Flow | NSF (Force INS. Funds)" />
-				<row val0="Application Finastra FGPP - Flow | NSF (Retry INS. Funds)" />
-				<row val0="Application Finastra FGPP - Flow | Outgoing AUD MT103 (DBSSSGSGXXX)" />
-				<row val0="Application Finastra FGPP - Flow | Scheduled (Force from Scheduled)" />
-				<row val0="Application Finastra FGPP - Flow | Source: FED - FED 1000 CTR Domestic 2 Bank (COMPLETE)" />
-				<row val0="Application Finastra FGPP - Flow | SWIFT to FED (Repair)" />
+				<row val0="Application STANDARD FGPP - Flow | Ability to Simultaneously Have the Original Incoming Wire Open with the New Outgoing Return (Processing)" />
+				<row val0="Application STANDARD FGPP - Flow | Dodd-Frank Consumer USD International Wire: Time Hold (Auto-Release)" />
+				<row val0="Application STANDARD FGPP - Flow | Dodd-Frank Consumer USD International Wire: Time Hold (Force from Time Hold)" />
+				<row val0="Application STANDARD FGPP - Flow | FRAUDEX (ForceFraud)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming Drawdown (Invalid Mandate - Approve)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming Drawdown (Invalid Mandate - Refuse)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming EUR MT103 - Reject (Prior to Post)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming EUR MT103 - Return (After Post)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming EUR MT103 to EUR DDA (Return)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming FedWire to Book (ROFI)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming SWIFT EUR MT103 | Repair Due to Rate Tolerance" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming SWIFT USD MT103 from Bank Frick (Complete)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming SWIFT USD MT103 from LHV (Complete)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming SWIFT USD MT103 from XAPO (Complete)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming USD MT103 - Reject (Prior to Post)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming USD MT103 - Return (After Post)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming Wire FED 1000 CTR - Outgoing Return (Return Amount is Different Than The Instructed Amount)" />
+				<row val0="Application STANDARD FGPP - Flow | Incoming Wire FED 1000 CTR - Outgoing Return (Return Amounts Reverting to OG Amount After Edit)" />
+				<row val0="Application STANDARD FGPP - Flow | NSF (Force INS. Funds)" />
+				<row val0="Application STANDARD FGPP - Flow | NSF (Retry INS. Funds)" />
+				<row val0="Application STANDARD FGPP - Flow | Outgoing AUD MT103 (DBSSSGSGXXX)" />
+				<row val0="Application STANDARD FGPP - Flow | Scheduled (Force from Scheduled)" />
+				<row val0="Application STANDARD FGPP - Flow | Source: FED - FED 1000 CTR Domestic 2 Bank (COMPLETE)" />
+				<row val0="Application STANDARD FGPP - Flow | SWIFT to FED (Repair)" />
 				<row val0="Application FIS BeB - Flow | Source: FEEDER_BEB (BEB FX AUD w/o Correspondent Bank)" />
 				<row val0="Application FIS BeB - Flow | Source: FEEDER_BEB (BEB FX CHF) &lt;&gt; BFRILI22XXX (REPAIR)" />
 				<row val0="Application FIS BeB - Flow | Source: FEEDER_BEB (BEB FX EUR) &lt;&gt; BFRILI22XXX (REPAIR)" />
@@ -77,7 +77,7 @@
 				<row val0="Application LexisNexis Bridger - Function | True Match - Approved [TP]" />
 				<row val0="Application LexisNexis Bridger - Function | True Match - Seize [TP]" />
 				<row val0="Application NICE Actimize - Function | Manual Release" />
-				<row val0="Finastra FGPP Application - Flow | NAK (Cancel from NAK)" />
+				<row val0="STANDARD FGPP Application - Flow | NAK (Cancel from NAK)" />
 				<row val0="------------User Acceptance Testing - Flow - Fedwire-----------" />
 				<row val0="------------User Acceptance Testing - Flow - SWIFT-----------" />
 				<row val0="------------User Acceptance Testing - Function-----------" />

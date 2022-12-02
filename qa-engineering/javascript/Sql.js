@@ -1,7 +1,7 @@
 ﻿/***************************************************************
 Name: Sql
 Description: Backend database handling - SSMS & ADO
-Author: Keith Hudson
+Author: kITt
 Creation Date: 08/19/2022
 ***************************************************************/
 

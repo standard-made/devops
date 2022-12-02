@@ -26,19 +26,19 @@ SELECT TOP 1 @tradecountmax = COUNT(*) OVER ()
 	WHERE dealtype = @dealtype
 	GROUP BY terminal, customer, supplier
 
-SET @posdetailmax = (SELECT MIN(CAST(pp.posdetail AS NUMERIC)) FROM physicalposition pp WHERE pp.creationname = 'Avalara Regression Automation')
+SET @posdetailmax = (SELECT MIN(CAST(pp.posdetail AS NUMERIC)) FROM physicalposition pp WHERE pp.creationname = 'STANDARD Regression Automation')
 SET @surrogatemax = (SELECT MAX(CAST(pq.surrogate AS NUMERIC)+1) FROM physicalquantity pq)
 DECLARE @positionmin INT
-SET @positionmin = (SELECT MIN(CAST(p.position AS NUMERIC)) FROM position p WHERE creationname = 'Avalara Regression Automation')
-SELECT @positioncountmax = (SELECT COUNT(*) FROM position WHERE creationname = 'Avalara Regression Automation')
+SET @positionmin = (SELECT MIN(CAST(p.position AS NUMERIC)) FROM position p WHERE creationname = 'STANDARD Regression Automation')
+SELECT @positioncountmax = (SELECT COUNT(*) FROM position WHERE creationname = 'STANDARD Regression Automation')
 SELECT @phyquanmin, @positioncountmax, @positionmin, @posdetailmax, @surrogatemax
 --dbo.physicalquantity
 WHILE @phyquanmin < @positioncountmax
 BEGIN TRY  
   --insert physical quantity
   INSERT INTO [dbo].[physicalquantity] ([position], [posdetail], [surrogate], [quantitytype], [begtime], [endtime], [component], [carriermode], [shipment], [cycle], [measure], [quantitystatus], [posstatus], [mass], [massunit], [volume], [volumeunit], [energy], [gravity], [energyunit], [gravityunit], [altquantity], [settlementexchangeflag], [altunit], [timeunit], [origshipment], [sched], [batchid], [creationname], [creationdate], [revisionname], [revisiondate], [rt_notes])
-  VALUES (@positionmin, @posdetailmax, @surrogatemax, 'DELIVERY', @firstdaycm, @lastdaynm, NULL  , NULL, NULL, NULL, NULL, 'TRADE', 0, 16979.0000, 'mt', 100000.0000, 'bbl', 0.0000, 1.00000000, NULL, 'API', 0.0000, 0, NULL, 'TOTAL', NULL, NULL, NULL, 'Avalara Regression Automation', GETDATE(), NULL, NULL, NULL)
-  , (@positionmin, @posdetailmax, (@surrogatemax + 1), 'DELIVERY', @firstdaycm, @lastdaynm, NULL  , NULL, NULL, NULL, NULL, 'FORECAST', 1, 16979.0000, 'mt', 100000.0000, 'bbl', 0.0000, 1.00000000, NULL, 'API', 0.0000, 0, NULL, 'TOTAL', NULL, NULL, NULL, 'Avalara Regression Automation', GETDATE(), NULL, NULL, NULL)
+  VALUES (@positionmin, @posdetailmax, @surrogatemax, 'DELIVERY', @firstdaycm, @lastdaynm, NULL  , NULL, NULL, NULL, NULL, 'TRADE', 0, 16979.0000, 'mt', 100000.0000, 'bbl', 0.0000, 1.00000000, NULL, 'API', 0.0000, 0, NULL, 'TOTAL', NULL, NULL, NULL, 'STANDARD Regression Automation', GETDATE(), NULL, NULL, NULL)
+  , (@positionmin, @posdetailmax, (@surrogatemax + 1), 'DELIVERY', @firstdaycm, @lastdaynm, NULL  , NULL, NULL, NULL, NULL, 'FORECAST', 1, 16979.0000, 'mt', 100000.0000, 'bbl', 0.0000, 1.00000000, NULL, 'API', 0.0000, 0, NULL, 'TOTAL', NULL, NULL, NULL, 'STANDARD Regression Automation', GETDATE(), NULL, NULL, NULL)
 
   -- increment inner loops
   SELECT @phyquanmin = @phyquanmin + 1
@@ -56,7 +56,7 @@ END CATCH
 
 --TEST---------------------------------------------------------------------------------------------------
 SELECT @phyquanmin AS 'number of dbo.physicalquantity rows inserted'
-SELECT * FROM physicalquantity WHERE creationname = 'Avalara Regression Automation' AND revisionname LIKE 'Third Party Rack%' ORDER BY position
+SELECT * FROM physicalquantity WHERE creationname = 'STANDARD Regression Automation' AND revisionname LIKE 'Third Party Rack%' ORDER BY position
 ---------------------------------------------------------------------------------------------------------
 
 

@@ -9,7 +9,7 @@ BuiltIn.InputBox(Caption, Prompt, Default)
 function InputBox() 
 {
   var i;
-  i = BuiltIn.InputBox("Regression Environment", "Which environment would you like to run regression against?", "AllegroQA");
+  i = BuiltIn.InputBox("Regression Environment", "Which environment would you like to run regression against?", "StandardQA");
   Log.Message(i);
 }
 
@@ -46,7 +46,7 @@ function EmailZachSoHisFartNoiseNotificationPlays()
     if (emailCounter < 10)
     {
       Wait.Wait(5);
-      if (SendMail("granallo@racetrac.com", "outlook.rt.corp", "poop", "test@racetrac.com", "poop", "poop")) 
+      if (SendMail("kITt@made.llc", "outlook.rt.corp", "poop", "test@made.llc", "poop", "poop")) 
       { 
         Log.Message("Script completed successfully");
       } 
@@ -178,7 +178,7 @@ Author: 8Kit
   var time = 150000;// 2.5 minutes
   var refreshTimer = Utils.Timers.Add(time,"Settlement.RefreshGrid", true);
     
-  var logGrid = allegro.MainForm.MdiClient.Grid_Manager.WindowDockingArea.DockableWindow2.gridqueue.Data_Area.ColScrollRegion_0_RowScrollRegion_0;
+  var logGrid = Standard.MainForm.MdiClient.Grid_Manager.WindowDockingArea.DockableWindow2.gridqueue.Data_Area.ColScrollRegion_0_RowScrollRegion_0;
   while(logGrid.ChildCount > 1)
   { 
     if(logGrid.ChildCount <= 1)
@@ -194,7 +194,7 @@ Description: Exits loop after specified timelimit.
 Author: 8Kit
 ***************************************************************/    
   var loopTimeout = 0;
-  while (Aliases.Allegro.FindChild("WndCaption", "Retrieving*", 3).Exists) 
+  while (Aliases.Standard.FindChild("WndCaption", "Retrieving*", 3).Exists) 
   {
     Wait.Wait(1);
     loopTimeout++;
@@ -281,13 +281,13 @@ Author: 8Kit
 ***************************************************************/
 var database;
   var prices = null;
-  var settlementQuery = "SELECT COUNT(*) FROM AllegroQA.dbo.findetail fd  "
+  var settlementQuery = "SELECT COUNT(*) FROM StandardQA.dbo.findetail fd  "
       + "WHERE fd.creationdate >= CAST(GETDATE() AS DATE)";
       
   AConnection = ADO.CreateConnection();
   AConnection.Open ("Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;" 
-    + ProjectSuite.Variables.AllegroQADB 
-    + ProjectSuite.Variables.AllegroServer);
+    + ProjectSuite.Variables.StandardQADB 
+    + ProjectSuite.Variables.StandardServer);
   Cmd = ADO.CreateCommand();
   Cmd.ActiveConnection = AConnection;
   Cmd.CommandType = adCmdText;
@@ -315,7 +315,7 @@ Author: 8Kit
   var compQuery = "SELECT DISTINCT(product) FROM physicalposition WHERE product <> 'Freight' ORDER BY product";
   
   AConnection = ADO.CreateConnection();
-  AConnection.Open ("Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=AllegroQA;Data Source=allegrodbqa01;");
+  AConnection.Open ("Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=StandardQA;Data Source=Standarddbqa01;");
   Cmd = ADO.CreateCommand();
   Cmd.ActiveConnection = AConnection;
   Cmd.CommandType = adCmdText;
@@ -338,7 +338,7 @@ Author: 8Kit
   var exitAllLoops = false;
   for (transactionCounter = 0; transactionCounter <= gridCount; transactionCounter++)
   {  
-    var currentGrid = allegro.MainForm.MdiClient.WinFormsObject("End of Month Tax Export").WinFormsObject("WindowDockingArea", "", 1).WinFormsObject("DockableWindow", "").WinFormsObject("All_Transactions");
+    var currentGrid = Standard.MainForm.MdiClient.WinFormsObject("End of Month Tax Export").WinFormsObject("WindowDockingArea", "", 1).WinFormsObject("DockableWindow", "").WinFormsObject("All_Transactions");
     var currentRow = currentGrid.UIAObject("Data_Area").UIAObject("ColScrollRegion_0_RowScrollRegion_0");
     var currentPosition = currentRow.FindChild("AutomationId", transactionCounter);
     var productCode = currentPosition.UIAObject("ProductCode").Value; 
@@ -426,7 +426,7 @@ Description: Iteraties through each child row in the grid and
 Author: 8Kit
 ***************************************************************/  
 //Obtain the application process and its main form
-  p = allegro.MainForm.MdiClient;
+  p = Standard.MainForm.MdiClient;
   frmMain = p.WinFormsObject("Scheduling").WinFormsObject("WindowDockingArea", "", 1).WinFormsObject("DockableWindow", "", 1).WinFormsObject("schedule");
 
   //Obtain the grid control
@@ -435,7 +435,7 @@ Author: 8Kit
   ribbonArea.DblClickItem("DATA|Sort/Filter|Expand");
   
   //Start a loop to go through the entire grid. We are looking for Sched Type = Load and Confirmed = False.
-  var objAbbrev = Aliases.Allegro.MainForm.MdiClient.WinFormsObject("Scheduling").WinFormsObject("WindowDockingArea", "", 1).WinFormsObject("DockableWindow", "", 1).WinFormsObject("schedule").UIAObject("Data_Area").UIAObject("ColScrollRegion_0_RowScrollRegion_0");
+  var objAbbrev = Aliases.Standard.MainForm.MdiClient.WinFormsObject("Scheduling").WinFormsObject("WindowDockingArea", "", 1).WinFormsObject("DockableWindow", "", 1).WinFormsObject("schedule").UIAObject("Data_Area").UIAObject("ColScrollRegion_0_RowScrollRegion_0");
   var products = GetPhysicalPositionProducts();
   var exitAllLoops = false;
   for (productCounter = 0; productCounter <= products.length - 1; productCounter++)
@@ -473,8 +473,8 @@ Author: 8Kit
             //Then Update
             rowShipment.UIAObject("Conf").Click();
             Wait.Wait(2);
-            allegro.WinFormsObject("PopUpOptions").WinFormsObject("optionGroup").WinFormsObject("radiobutton2").Click();
-            allegro.WinFormsObject("PopUpOptions").WinFormsObject("okButton").Click();
+            Standard.WinFormsObject("PopUpOptions").WinFormsObject("optionGroup").WinFormsObject("radiobutton2").Click();
+            Standard.WinFormsObject("PopUpOptions").WinFormsObject("okButton").Click();
             ribbonArea.ribbon.Ribbon_Tabs.DATA.Click();
             ribbonArea.ribbon.Lower_Ribbon.Database.Update.Click();
             exitAllLoops = true;
@@ -539,7 +539,7 @@ function dataExcel(sheetName)
 
 function RT_ContractsAndTrades()
 {
-  //Start["Start"]("Allegro");
+  //Start["Start"]("Standard");
   SpreadSheets.SetSpreadsheet("\\Spreadsheets\\RT_ContractsAndTrades.xls", "Contract");
   createNewContract();
   SpreadSheets.SetSpreadsheet("\\Spreadsheets\\RT_ContractsAndTrades.xls", "Trade");
@@ -557,7 +557,7 @@ function RefreshFreightInvoicesAndFuelDeliveriesToStaging()
 { 
  Log.AppendFolder("RefreshFreightInvoicesAndFuelDeliveriesToStaging");
   
-  //BCP Freight Invoices and Fuel Deliveries from FUELSQLSRVCL.Staging to SQLSRVCLDEPLOY.Allegro_Staging_UAT
+  //BCP Freight Invoices and Fuel Deliveries from FUELSQLSRVCL.Staging to SQLSRVCLDEPLOY.Standard_Staging_UAT
   var batch = Sys.OleObject("WScript.Shell");
 
   //If the existing data refresh files do not have today's date then pull the latest data from Prod
@@ -588,7 +588,7 @@ function RefreshFreightInvoicesAndFuelDeliveriesToStaging()
     Wait.Wait(15);
   }
   
-  //Import prices into Allegro_FuelPurchaseOpDb_UAT
+  //Import prices into Standard_FuelPurchaseOpDb_UAT
   batch.Run(ProjectSuite.Path + "UtilityScripts\\ImportFreightInvoicesFuelDeliveries.bat");
   Log.Checkpoint("Importing freight invoices and fuel deliveries into Deploy");
   Wait.Wait(15);
@@ -608,8 +608,8 @@ function UpdateDbPointersInStoreProcedure(procName, database)
   Log.AppendFolder("UpdateDbPointersInStoreProcedure(" + procName + ", " + database + ")");  
   var server, database, text;
   var procName; //pass procedure name
-  var stagingDB = "Allegro_Staging_UAT";
-  var fuelDB = "Allegro_FuelPurchaseOpDb_UAT";
+  var stagingDB = "Standard_Staging_UAT";
+  var fuelDB = "Standard_FuelPurchaseOpDb_UAT";
   var dataset = [];
   var compQuery = "EXEC sp_helpText N'" + procName + "';";
 
@@ -632,17 +632,17 @@ function UpdateDbPointersInStoreProcedure(procName, database)
       {
         txt = aqString.ToLower(compSet.Fields(0).Value);
         
-        if(aqString.Find(txt, aqString.ToLower("Allegro.")) != -1)
+        if(aqString.Find(txt, aqString.ToLower("Standard.")) != -1)
         {
-          txt = aqString.Replace(txt, aqString.ToLower("Allegro."), ProjectSuite.Variables.Database + ".");
+          txt = aqString.Replace(txt, aqString.ToLower("Standard."), ProjectSuite.Variables.Database + ".");
         }
-        else if(aqString.Find(txt, aqString.ToLower("AllegroQA.")) != -1)
+        else if(aqString.Find(txt, aqString.ToLower("StandardQA.")) != -1)
         {
-          txt = aqString.Replace(txt, aqString.ToLower("AllegroQA."), ProjectSuite.Variables.Database + ".");
+          txt = aqString.Replace(txt, aqString.ToLower("StandardQA."), ProjectSuite.Variables.Database + ".");
         }
-        else if(aqString.Find(txt, aqString.ToLower("AllegroAutomation.")) != -1)
+        else if(aqString.Find(txt, aqString.ToLower("StandardAutomation.")) != -1)
         {
-          txt = aqString.Replace(txt, aqString.ToLower("AllegroAutomation."), ProjectSuite.Variables.Database + ".");
+          txt = aqString.Replace(txt, aqString.ToLower("StandardAutomation."), ProjectSuite.Variables.Database + ".");
         }
         else if(aqString.Find(txt, aqString.ToLower("FuelPurchaseOpDb.")) != -1)
         {

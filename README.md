@@ -57,12 +57,12 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 
 | Skills  | Experience |
 | ------------- |:-------------:|
-| Test Automation | 100% |
-| Test Framework & Architecture | 100% |
-| Test Management | 100% |
-| QA Methodologies & SDLC | 100% |
+| UI/UX Automation: Desktop/Web/Mobile | 100% |
 | Database (SQL/NoSQL) | 100% |
-| Leadership/Mentopship | 85% |
+| Test Framework & Architecture | 100% |
+| QA Methodologies & SDLC | 100% |
+| Leadership/Mentorship | 90% |
+| API Automation: REST/Load/Perf | 85% |
 | Product Design | 80% |
 | DevOps (Iaas/SaaS) | 75% |
 | CI/CD Pipelines | 60% |
@@ -79,7 +79,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 
 ## <span style="color:#555555"><u> **CORE DEVELPOMENT** </u></span>
 
-**myTOOLS:** `TestComplete` | `SoapUI/ReadyAPI` | `Selenium WebDriver` | `ADO` | `SSMS`
+**myTOOLS:** `TestComplete` | `SoapUI/ReadyAPI` | `Selenium` | `WebDriverIO` | `Azure DevOps` | `SSMS` | `GitHub`
 
 **myCODE:** `JavaScript` | `Bash/Shell` | `Git` | `Gherkin` | `JSON` | `SQL` | `YAML`
 
@@ -96,14 +96,14 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 
 - <span style="color:#F4AFDA"><u>Google:</u></span> Chrome DevTools, Cloud, Android, Analytics, Ads 
 - <span style="color:#F4AFDA"><u>Microsoft:</u></span> DevOps, GitHub, VS, SSMS, 365, Teams 
-- <span style="color:#F4AFDA"><u>SmartBear:</u></span> TestComplete (Desktop/Mobile/Web), ReadyAPI, Swagger, Cucumber, LoadNinja, TestExecute, TestEngine, CrossBroswerTesting 
-- <span style="color:#F4AFDA"><u>Automation:</u></span> Selenium, Postman, Powershell, ServiceNow, MongoDB, Robo3T, Fiddler, OctoPerf
+- <span style="color:#F4AFDA"><u>SmartBear:</u></span> TestComplete (Desktop/Mobile/Web), SoapUI, Swagger, Cucumber, LoadNinja, TestExecute, TestEngine, CrossBroswerTesting 
+- <span style="color:#F4AFDA"><u>Automation:</u></span> Selenium, WebDriverIO, Postman, Powershell, ServiceNow, MongoDB, Robo3T, Fiddler, OctoPerf
 
 :taco: **EXPOSURE (< 3 yrs):** 
 
 - <span style="color:#F4AFDA"><u>Google:</u></span> Firebase, Flutter/Dart 
 - <span style="color:#F4AFDA"><u>Microsoft:</u></span> Visio, PowerBI, AKS 
-- <span style="color:#F4AFDA"><u>Automation:</u></span> JMeter, LoadRunner, BrowserStack, Appium, Cypress, SauceLabs 
+- <span style="color:#F4AFDA"><u>Automation:</u></span> ReadyAPI, JMeter, LoadRunner, BrowserStack, Appium, Cypress, SauceLabs 
 - <span style="color:#F4AFDA"><u>Other:</u></span> Docker, Terraform, React.js, Kentico, Figma, Zepplin, Jira
 
 <span style="color:#A6A6A6"> **EXAMPLES:** </span>

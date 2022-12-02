@@ -2,7 +2,7 @@
 /***************************************************************
 Name: RegressionSUITE
 Description: Automated test cases - Portal E2E Regression
-Author: Keith Hudson
+Author: kITt
 Creation Date: 12/09/2021
 ***************************************************************/
 

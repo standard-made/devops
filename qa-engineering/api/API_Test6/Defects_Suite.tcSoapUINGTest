@@ -2,7 +2,7 @@
 <Root signature="{3AE7D26E-11DE-411F-A26E-9C422F421771}" version="15.0">
 	<data>
 		<setting name="UseProjectFileName" type="1" value="True" />
-		<setting name="ProjectFileName" type="5" value="C:\Users\KeithHudson\Documents\Automation\Silvergate\SGB-PaymentsAPI\Stores\Files\Full-Regression-TestingPE-soapui-project.xml" />
+		<setting name="ProjectFileName" type="5" value="C:\Users\kITt\Documents\Automation\Silvergate\SGB-PaymentsAPI\Stores\Files\Full-Regression-TestingPE-soapui-project.xml" />
 		<setting name="UseProjectDirectory" type="1" value="False" />
 		<setting name="ProjectDirectory" type="5" value="" />
 		<setting name="TestSuite" type="6" rowIndex="6" colIndex="0">
@@ -17,7 +17,7 @@
 				<row val0="BeB | FX | Pacs008" />
 				<row val0="BeB | USD | Pacs008" />
 				<row val0="Defects" />
-				<row val0="Finastra FGPP | Manual Regression Test Package" />
+				<row val0="STANDARD FGPP | Manual Regression Test Package" />
 				<row val0="Fraud Bypass" />
 				<row val0="Incoming FED" />
 				<row val0="Incoming SWIFT FX" />

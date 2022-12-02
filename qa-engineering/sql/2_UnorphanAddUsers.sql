@@ -1,16 +1,16 @@
-USE [Allegro]
+USE [STANDARD]
 GO
 
 IF NOT EXISTS (
 		SELECT *
 		FROM sysusers
-		WHERE NAME = 'RT\s-AllegroQA'
+		WHERE NAME = 'RT\s-STANDARDQA'
 		)
 BEGIN
-	CREATE USER [RT\s-AllegroQA]
-	FOR LOGIN [RT\s-AllegroQA]
+	CREATE USER [RT\s-STANDARDQA]
+	FOR LOGIN [RT\s-STANDARDQA]
 END
-	ALTER ROLE [db_owner] ADD MEMBER [RT\s-AllegroQA]
+	ALTER ROLE [db_owner] ADD MEMBER [RT\s-STANDARDQA]
 
 GO
 
@@ -29,16 +29,16 @@ GO
 IF EXISTS (
 		SELECT *
 		FROM sysusers
-		WHERE NAME = 'RT\s-AllegroPrd'
+		WHERE NAME = 'RT\s-STANDARDPrd'
 		)
 BEGIN 
-DROP USER [RT\s-AllegroPrd]
+DROP USER [RT\s-STANDARDPrd]
 END 
 
 GO
 
 
-USE Allegro
+USE STANDARD
 GO 
 
 --Decide if you want to just print unmapped users

@@ -1,7 +1,7 @@
-USE [Allegro]
+USE [STANDARD]
 GO
 ALTER AUTHORIZATION ON SCHEMA::[db_owner] TO [dbo]
-DROP USER [AllegroAdmin]
+DROP USER [STANDARDAdmin]
 GO 
 USE [master]
 GO 
@@ -15,9 +15,9 @@ if (object_id('tempdb..#backupfiles') is not null)
 Create Table #backupfiles( bkfilename varchar(250) )
 
 Insert Into #backupfiles (bkfilename)
-exec xp_cmdshell 'dir \\dbabkup01\prod_backups\ALLEGRODB01\Allegro\FULL\*.bak /B /O-D'
+exec xp_cmdshell 'dir \\dbabkup01\prod_backups\STANDARDDB01\STANDARD\FULL\*.bak /B /O-D'
 
-SET @DIR ='\\dbabkup01\prod_backups\ALLEGRODB01\Allegro\FULL\'
+SET @DIR ='\\dbabkup01\prod_backups\STANDARDDB01\STANDARD\FULL\'
 
 SeT @latestBackupName = (SELECT TOP 1 bkfilename from #backupfiles)
 set @backuplocation = @DIR + @latestBackupName
@@ -27,7 +27,7 @@ SELECT @latestBackupName
 
 Drop Table #backupfiles
 
- --Remove any existing connections to the Allegro database
+ --Remove any existing connections to the STANDARD database
 CREATE TABLE #RunningSpids
 (
        [spid] int 
@@ -41,7 +41,7 @@ CREATE TABLE #RunningSpids
        , [request_id] varchar(10) 
 )
 
-WHILE EXISTS( SELECT 1 FROM sys.sysprocesses WHERE [dbid] = DB_ID('Allegro'))
+WHILE EXISTS( SELECT 1 FROM sys.sysprocesses WHERE [dbid] = DB_ID('STANDARD'))
 BEGIN 
     INSERT INTO #RunningSpids
     exec sp_who 
@@ -51,7 +51,7 @@ BEGIN
     DECLARE @loginname varchar(MAX) 
 
     SET @sqlCmd = ''
-    SET @dbName = 'Allegro' -- Change database name here
+    SET @dbName = 'STANDARD' -- Change database name here
     SET @loginname = ''
 
     SELECT @sqlCmd = @sqlCmd + 'KILL ' + CAST(spid AS VARCHAR) + CHAR(13)
@@ -66,20 +66,20 @@ DROP TABLE #RunningSpids
 
 -- Perform the restore
 
-RESTORE DATABASE [Allegro] FILE = N'allegro_75_Data' 
+RESTORE DATABASE [STANDARD] FILE = N'STANDARD_75_Data' 
 FROM  DISK = @backuplocation
 WITH  FILE = 1
-,  MOVE N'allegro_75_Data' TO N'D:\sqldata\Allegro_data.mdf'
-,  MOVE N'allegro_75_Log' TO N'L:\sqllog\Allegro_log.ldf'
+,  MOVE N'STANDARD_75_Data' TO N'D:\sqldata\STANDARD_data.mdf'
+,  MOVE N'STANDARD_75_Log' TO N'L:\sqllog\STANDARD_log.ldf'
 ,  NOUNLOAD
 ,  REPLACE
 ,  STATS = 10
 GO
 
-ALTER DATABASE AllegroAutomation SET RECOVERY SIMPLE
+ALTER DATABASE STANDARDAutomation SET RECOVERY SIMPLE
 GO
 
-USE [AllegroAutomation]
+USE [STANDARDAutomation]
 GO
-GRANT CONNECT TO [AllegroAdmin]
+GRANT CONNECT TO [STANDARDAdmin]
 

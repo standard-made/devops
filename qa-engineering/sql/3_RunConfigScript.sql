@@ -1,4 +1,4 @@
-USE [Allegro]
+USE [STANDARD]
 GO
 
 BEGIN TRANSACTION [Tran1]
@@ -15,32 +15,32 @@ BEGIN TRY
 
 	--reset Servers
 	UPDATE [gridserver]
-	SET SERVER = 'allegroappuat01'
-		,url = 'http://allegroappuat01/allegro'
+	SET SERVER = 'STANDARDappuat01'
+		,url = 'http://STANDARDappuat01/STANDARD'
 		,active = 1
 		,userprocs = 1
 		, bgslots = 8
-	WHERE SERVER = 'allegroapp01'
+	WHERE SERVER = 'STANDARDapp01'
 
 	UPDATE [gridserver]
-	SET SERVER = 'allegroappuat02'
-		,url = 'http://allegroappuat02/allegro'
+	SET SERVER = 'STANDARDappuat02'
+		,url = 'http://STANDARDappuat02/STANDARD'
 		,active = 1
 		,userprocs = 1
 		, bgslots = 8
-	WHERE SERVER = 'allegroapp02'
+	WHERE SERVER = 'STANDARDapp02'
 
 	IF EXISTS 
-		(SELECT * FROM gridserver WHERE server IN ('allegroapp03','allegroapp04','allegroapp05'))
+		(SELECT * FROM gridserver WHERE server IN ('STANDARDapp03','STANDARDapp04','STANDARDapp05'))
 	DELETE FROM [gridserver]
-	WHERE SERVER IN ('allegroapp03','allegroapp04','allegroapp05')
+	WHERE SERVER IN ('STANDARDapp03','STANDARDapp04','STANDARDapp05')
 
-	--reset Avalara username and password
+	--reset STANDARD username and password
 	UPDATE interfaceuserid
 	SET LOGIN = 'metroplexua.api'
 		,password = 'VHadpqz7VtV9Wm+QjVvoLDn3VPavgcvp' --> Ih@v3t0c0nn3ctt0UA!
-		,URL = 'https://exciseua.avalara.net'
-	WHERE interfacename = 'Avalara'
+		,URL = 'https://exciseua.STANDARD.net'
+	WHERE interfacename = 'STANDARD'
 
 	IF (
 			SELECT Count(0)
@@ -120,7 +120,7 @@ BEGIN TRY
 		VALUES (
 			'SYSTEM'
 			,'FuelOpDb'
-			,'Allegro_FuelPurchaseOpDb_UAT'
+			,'STANDARD_FuelPurchaseOpDb_UAT'
 			,'ImportScript'
 			,Getdate()
 			,NULL
@@ -129,7 +129,7 @@ BEGIN TRY
 	END
 	ELSE
 		UPDATE dbo.userconfig
-		SET configvalue = 'Allegro_FuelPurchaseOpDb_UAT'
+		SET configvalue = 'STANDARD_FuelPurchaseOpDb_UAT'
 		WHERE configkey = 'FuelOpDb'
 
 	IF (
@@ -210,7 +210,7 @@ BEGIN TRY
 		VALUES (
 			'SYSTEM'
 			,'ICMSARExportPath'
-			,'\\rtcorpappdev\AllegroICMSExport\'
+			,'\\rtcorpappdev\STANDARDICMSExport\'
 			,'ImportScript'
 			,Getdate()
 			,NULL
@@ -219,7 +219,7 @@ BEGIN TRY
 	END
 	ELSE
 		UPDATE dbo.userconfig
-		SET configvalue = '\\rtcorpappdev\AllegroICMSExport\'
+		SET configvalue = '\\rtcorpappdev\STANDARDICMSExport\'
 		WHERE configkey = 'ICMSARExportPath'
 
 	IF (
@@ -300,7 +300,7 @@ BEGIN TRY
 		VALUES (
 			'SYSTEM'
 			,'MetroplexInventoryOutputPath'
-			,'\\fuelsqlsrvcl\share\Allegro_UAT\MetroplexInventory\'
+			,'\\fuelsqlsrvcl\share\STANDARD_UAT\MetroplexInventory\'
 			,'ImportScript'
 			,Getdate()
 			,NULL
@@ -309,7 +309,7 @@ BEGIN TRY
 	END
 	ELSE
 		UPDATE dbo.userconfig
-		SET configvalue = '\\fuelsqlsrvcl\share\Allegro_UAT\MetroplexInventory\'
+		SET configvalue = '\\fuelsqlsrvcl\share\STANDARD_UAT\MetroplexInventory\'
 		WHERE configkey = 'MetroplexInventoryOutputPath'
 
 	IF (
@@ -330,7 +330,7 @@ BEGIN TRY
 		VALUES (
 			'SYSTEM'
 			,'PDIBolFile'
-			,'\\pdifile01\enterprisedata\QA\EnterpriseImports\Allegro EBOL\pdibol.txt'
+			,'\\pdifile01\enterprisedata\QA\EnterpriseImports\STANDARD EBOL\pdibol.txt'
 			,'ImportScript'
 			,Getdate()
 			,NULL
@@ -339,7 +339,7 @@ BEGIN TRY
 	END
 	ELSE
 		UPDATE dbo.userconfig
-		SET configvalue = '\\pdifile01\enterprisedata\QA\EnterpriseImports\Allegro EBOL\pdibol.txt'
+		SET configvalue = '\\pdifile01\enterprisedata\QA\EnterpriseImports\STANDARD EBOL\pdibol.txt'
 		WHERE configkey = 'PDIBolFile'
 
 	IF (
@@ -360,7 +360,7 @@ BEGIN TRY
 		VALUES (
 			'SYSTEM'
 			,'StagingDB'
-			,'Allegro_Staging_UAT'
+			,'STANDARD_Staging_UAT'
 			,'ImportScript'
 			,Getdate()
 			,NULL
@@ -369,7 +369,7 @@ BEGIN TRY
 	END
 	ELSE
 		UPDATE dbo.userconfig
-		SET configvalue = 'Allegro_Staging_UAT'
+		SET configvalue = 'STANDARD_Staging_UAT'
 		WHERE configkey = 'StagingDB'
 
 	IF (
@@ -390,7 +390,7 @@ BEGIN TRY
 		VALUES (
 			'SYSTEM'
 			,'StagingDBeBOL'
-			,'Allegro_Staging_UAT'
+			,'STANDARD_Staging_UAT'
 			,'ImportScript'
 			,Getdate()
 			,NULL
@@ -399,7 +399,7 @@ BEGIN TRY
 	END
 	ELSE
 		UPDATE dbo.userconfig
-		SET configvalue = 'Allegro_Staging_UAT'
+		SET configvalue = 'STANDARD_Staging_UAT'
 		WHERE configkey = 'StagingDBeBOL'
 
 	IF (
@@ -540,7 +540,7 @@ BEGIN TRY
 		VALUES (
 			'SYSTEM'
 			,'WellsFargoBAIImportPath'
-			,'\\rtfuelapp\Allegro\WellsFargo\uat\'
+			,'\\rtfuelapp\STANDARD\WellsFargo\uat\'
 			,'ImportScript'
 			,Getdate()
 			,NULL
@@ -549,7 +549,7 @@ BEGIN TRY
 	END
 	ELSE
 		UPDATE dbo.userconfig
-		SET configvalue = '\\rtfuelapp\Allegro\WellsFargo\uat\'
+		SET configvalue = '\\rtfuelapp\STANDARD\WellsFargo\uat\'
 		WHERE configkey = 'WellsFargoBAIImportPath'
 
 	COMMIT TRANSACTION [Tran1]
@@ -1094,7 +1094,7 @@ BEGIN
 		,NULL
 		,NULL)
 		,('SysAdmin'
-		,'s-AllegroQA'
+		,'s-STANDARDQA'
 		,'Keith Hudson'
 		,GETDATE()
 		,NULL

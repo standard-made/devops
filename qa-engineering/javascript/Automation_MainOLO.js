@@ -4,12 +4,12 @@
 /***************************************************************
 Name: MAIN
 Description: Run main functions - Regression
-Author: 8Kit
+Author: kITt
 Date: 11/20/2020
 
 Revision History:
-01) 11/23/2020 kit: RunRandomOrders, RunRandomOrdersAPIEndpoint()
-02) 12/04/2020 kit: QuickAndDirty_OrdersAPI() 
+01) 11/23/2020 kITt: RunRandomOrders, RunRandomOrdersAPIEndpoint()
+02) 12/04/2020 kITt: QuickAndDirty_OrdersAPI() 
 ***************************************************************/
 // Submits randomized orders thru OLO API endpoint
 function Random_OrdersAPI()

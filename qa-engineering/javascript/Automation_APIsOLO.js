@@ -4,7 +4,7 @@
 
 /***************************************************************
 Name: APIs
-Description: Verifying RaceTrac's OnlineOrders APIs
+Description: Verifying Standard's OnlineOrders APIs
 Author: 8Kit
 Date: 11/20/2020
 

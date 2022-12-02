@@ -3,15 +3,15 @@
 /***************************************************************
 Name: Common
 Description: Various reusable functions.
-Author: 8Kit
+Author: kITt
 Date: 10/23/2020
 
 Revision History:
-01) 10/23/2020 kit: Initial Creation
-02) 11/17/2020 kit: setTestEnvironment()
-03) 12/03/2020 kit: Migrate functions to Common
-04) 12/04/2020 kit: Refactor for enhanced envt and runtime handling
-05) 12/17/2020 kit: Refactor GetStoreInfo() for AreaTest & All stores
+01) 10/23/2020 kITt: Initial Creation
+02) 11/17/2020 kITt: setTestEnvironment()
+03) 12/03/2020 kITt: Migrate functions to Common
+04) 12/04/2020 kITt: Refactor for enhanced envt and runtime handling
+05) 12/17/2020 kITt: Refactor GetStoreInfo() for AreaTest & All stores
 ***************************************************************/
 function KillBrowser()
 {
@@ -72,7 +72,7 @@ function setTestEnvironmnet()
         break;
         
       case "PROD" :
-        url = "https://order.racetrac.com/";
+        url = "https://order.made.llc/";
         break;
     }
     ProjectSuite.Variables.storeNumber = store;
@@ -142,7 +142,7 @@ function envtAPIHandler()
     switch (ProjectSuite.Variables.environment)
     {
       case "PROD" :   
-        address = "https://order.racetrac.com/api/servicenow/CreateTestOrder"; 
+        address = "https://order.made.llc/api/servicenow/CreateTestOrder"; 
         break;
       case "DEPLOY" :    
         address = "https://orderswebappdeploy.azurewebsites.net/api/servicenow/CreateTestOrder"; 

@@ -129,8 +129,8 @@ db.getCollection('LoyaltyMembers').find({loyaltyId:
     {$in: [6000382, 6000332, 2095858, 6000293, 6000127, 2095850, 2095900]}});
 
 // store config - qa lab
-db.getCollection('RaceTracStoreInfo').find({SID:12003})
-db.getCollection('RaceTracStoreStatus').find({storeId:"12003"})
+db.getCollection('StandardStoreInfo').find({SID:12003})
+db.getCollection('StandardStoreStatus').find({storeId:"12003"})
 
 // between dates
 db.getCollection('MemberTransactions').find( { $and: 

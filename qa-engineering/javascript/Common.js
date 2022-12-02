@@ -3,7 +3,7 @@
 /***************************************************************
 Name: Common
 Description: General common functions
-Author: Keith Hudson
+Author: kITt
 Creation Date: 08/24/2021
 ***************************************************************/
 
