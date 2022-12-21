@@ -79,9 +79,9 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 
 ## <span style="color:#555555"><u> **CORE DEVELPOMENT** </u></span>
 
-**myTOOLS:** `TestComplete` | `SoapUI/ReadyAPI` | `Selenium` | `WebDriverIO` | `Azure DevOps` | `SSMS` | `GitHub`
+**myTOOLS:** `TestComplete` | `SoapUI/ReadyAPI` | `Selenium/WebDriver` | `Cypress` | `Azure DevOps` | `SSMS` | `GitHub` | `Cucumber`
 
-**myCODE:** `JavaScript` | `Bash/Shell` | `Git` | `Gherkin` | `JSON` | `SQL` | `YAML`
+**myCODE:** `JavaScript` | `Bash/Shell` | `Python` | `Git` | `Gherkin` | `JSON` | `SQL` | `YAML`
 
 --------------------
 :taco: **SCRIPTING (8+ yrs):** 
@@ -104,7 +104,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 - <span style="color:#F4AFDA"><u>Google:</u></span> Firebase, Flutter/Dart 
 - <span style="color:#F4AFDA"><u>Microsoft:</u></span> Visio, PowerBI, AKS 
 - <span style="color:#F4AFDA"><u>Automation:</u></span> ReadyAPI, JMeter, LoadRunner, BrowserStack, Appium, Cypress, SauceLabs 
-- <span style="color:#F4AFDA"><u>Other:</u></span> Docker, Terraform, React.js, Kentico, Figma, Zepplin, Jira
+- <span style="color:#F4AFDA"><u>Other:</u></span> Docker, Terraform, React.js, Kentico, Figma, Zepplin, Jira, ARCore
 
 <span style="color:#A6A6A6"> **EXAMPLES:** </span>
 
