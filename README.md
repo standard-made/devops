@@ -44,7 +44,7 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
     - Automation [100%]
 - <u>FuelOps Company</u> | **Senior QA Engineer** - 6yr
   - Digital Channels (Mobile/Web/API/Hardware)
-    - Automation [20%] | Manual [80%] 
+    - Automation [40%] | Manual [60%] 
   - FuelOps Engineering (Web/API/Hardware)
     - Automation [70%] | Manual [30%]
 - <u>Restaurant Automation Company</u> | **QA Analyst** - 1.5yr
@@ -61,12 +61,12 @@ If any issues arise for any of the below mentioned areas, please draft a strongl
 | Database (SQL/NoSQL) | 100% |
 | Test Framework & Architecture | 100% |
 | QA Methodologies & SDLC | 100% |
-| Leadership/Mentorship | 90% |
-| API Automation: REST/Load/Perf | 85% |
-| Product Design | 80% |
-| DevOps (Iaas/SaaS) | 75% |
-| CI/CD Pipelines | 60% |
-| Containerization | 40% |
+| Leadership/Mentorship | 100% |
+| API Automation: REST/Load/Perf | 100% |
+| Product Design | 100% |
+| DevOps (Iaas/SaaS) | 100% |
+| CI/CD Pipelines | 100% |
+| Containerization | 100% |
 
 | Intangibles | Grade |
 | ------------- |:-------------:|
