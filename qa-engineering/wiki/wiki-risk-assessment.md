@@ -35,10 +35,11 @@ See [TestComplete Automation](/TestComplete-Automation) for more info.
 
 Below is a 6 MONTH timeline of all completed, current, and future UAT and automation efforts conducted by the Standard project team.
 #### **Timeline**
-::: mermaid
+
+``` mermaid
 gantt
 title UAT & Automation Outlook
-dateFormat YYYY-MM-DD
+dateFormat YYYY-MM-DD 
 
 section Sprint 55
 Azure Pipelines :a1, 2021-12-27, 21d
@@ -77,7 +78,7 @@ Update Cases :a1, 2022-05-02, 21d
 section Sprint 62
 Backlog Crushing :a1, 2022-05-23, 21d
 Services Suite :a1, 2022-05-23, 21d
-:::
+```
 
 ### LOAD TESTING
 Load testing will test the performance of our API endpoints by using Apache JMeter & LoadRunner - testing solutions that enable Silvergate to make HTTP requests to a given endpoint and measure the response time, error rates, and other data from responses.
