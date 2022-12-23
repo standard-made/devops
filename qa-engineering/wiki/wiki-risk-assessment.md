@@ -18,7 +18,6 @@ For all testing and automation related inquires or issues, please contact the as
 ## <span style="color:#555555"><u> **PROJECTS** </u></span>
 The primary focus of the initial STANDARD: testing efforts will be on the customer facing Portal and Back Office interfaces as well as the various APIs utilized by customers to facilitate frictionless transactions across STANDARD's suite of banking solutions: 
 
-- Silvergate Exchange Network (SEN) transfers
 - FX Quoting
 - FX Trade Execution 
 - Foreign Currency Payments
@@ -34,7 +33,7 @@ See [TestComplete Automation](/TestComplete-Automation) for more info.
 #### **Backlog** 
 - **BACKLOG SUITE** - this is a query based test suite and will automatically pull in any Test Case tagged with **[@]_Automate** OR **[@]_Update**
 
-Below is a 6 MONTH timeline of all completed, current, and future UAT and automation efforts conducted by the Silvergate project team.
+Below is a 6 MONTH timeline of all completed, current, and future UAT and automation efforts conducted by the Standard project team.
 #### **Timeline**
 ::: mermaid
 gantt
